@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace VT_STYLES
+{
+    public partial class fullmediumlayers : Form
+    {
+        public fullmediumlayers()
+        {
+            InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            wmediumlayers wm = new wmediumlayers();
+            this.Close();
+        }
+    }
+}
